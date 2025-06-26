@@ -10,7 +10,6 @@ def main(file_path):
     result = get_book_text(file_path)
     num_words = len(count_words(result))
     print("================ BOOKBOT ================")
-    print(f"Analyzing book found at {file_path}...")
     print(f"Found {num_words} total words")
     num_chars = count_char(result)
     report(result)
